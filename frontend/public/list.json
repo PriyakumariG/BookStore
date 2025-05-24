@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "name": "Adventure Book",
+    "title": "by Alex Carter",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/book-doodle-hand-drawn-cartoon-art-illustration_56104-746.jpg?semt=ais_hybrid&w=740",
+    "desc": "Step into uncharted territories and embark on epic journeys alongside fearless explorers. This adventure-filled book weaves together thrilling encounters, hidden treasures, and courage in the face of danger. Each chapter offers a gripping new challenge, making it impossible to stop turning pages. A must-read for fans of high-stakes excitement and heart-pounding moments."
+  },
+  {
+    "id": 2,
+    "name": "Comedy Book",
+    "title": "by Rachel Bennett",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-book-cartoon-illustration_52683-130773.jpg?semt=ais_hybrid&w=740",
+    "desc": "Prepare to laugh out loud with this collection of comical mishaps and witty characters. The stories take a lighthearted look at everyday life and spin them into absurdly hilarious situations. Each page delivers clever punchlines and unexpected twists. Perfect for lifting your mood or sharing a laugh with friends."
+  },
+  {
+    "id": 3,
+    "name": "Sports Book",
+    "title": "by Michael O'Reilly",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-book-cartoon-illustration_23-2150681870.jpg",
+    "desc": "Discover the grit and determination behind some of the world’s most legendary athletes. From underdog victories to record-breaking performances, each story captures the spirit of competition. Learn how sports can teach resilience, teamwork, and personal growth. This book is both an inspiring read and a celebration of human potential."
+  },
+  {
+    "id": 4,
+    "name": "Music Book",
+    "title": "by Lana Morrison",
+    "price": 99,
+    "category": "Song",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-book-cartoon-illustration_23-2150609783.jpg",
+    "desc": "Dive into the rhythm of music and the stories behind the melodies that move us. Explore the lives of iconic musicians, their struggles, and their triumphs. This book reveals how music can heal, inspire, and unite across cultures. A harmonious blend of biography and musical discovery."
+  },
+  {
+    "id": 5,
+    "name": "Story Book",
+    "title": "by Emma Fields",
+    "price": 33,
+    "category": "Story",
+    "image": "https://img.freepik.com/free-vector/book-floating-cartoon-vector-icon-illustration-education-object-icon-isolated-flat-vector_138676-13661.jpg?semt=ais_hybrid&w=740",
+    "desc": "This enchanting collection is filled with tales of wonder, mystery, and delight. Designed to capture young imaginations, the stories feature magical lands, brave children, and unexpected friendships. Each narrative teaches values of kindness, creativity, and curiosity. Ideal for bedtime or storytelling circles."
+  },
+  {
+    "id": 6,
+    "name": "Food Book",
+    "title": "by Marco Delucci",
+    "price": 98,
+    "category": "Food",
+    "image": "https://img.freepik.com/free-vector/smiling-green-book-character_1308-173535.jpg?semt=ais_hybrid&w=740",
+    "desc": "Savor the rich flavors of global cuisines and culinary traditions. This book brings recipes, kitchen tips, and cultural insights together in a delicious package. Learn the stories behind famous dishes and discover the joy of cooking at home. A delightful guide for food lovers and aspiring chefs alike."
+  },
+  {
+    "id": 7,
+    "name": "Animal Tales",
+    "title": "by Nora Bennett",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-stack-books_23-2149331326.jpg?semt=ais_hybrid&w=740",
+    "desc": "Journey into the wild with this collection of heartwarming and thrilling animal adventures. From mischievous pups to noble jungle creatures, each tale reflects the beauty and bravery of animals. These stories not only entertain but also teach empathy and respect for all living beings. Perfect for children and animal lovers."
+  },
+  {
+    "id": 8,
+    "name": "Science Wonders",
+    "title": "by Dr. Elaine Harper",
+    "price": 25,
+    "category": "Education",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-book-cartoon-illustration_23-2150685655.jpg?semt=ais_hybrid&w=740",
+    "desc": "Unravel the mysteries of the universe in this engaging introduction to science. From galaxies to genetics, it simplifies complex topics with stories and experiments. Designed to inspire curiosity and critical thinking in young minds. A gateway to discovering the awe of scientific discovery."
+  },
+  {
+    "id": 9,
+    "name": "Fairy Tales",
+    "title": "by Grace Holloway",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/premium-vector/hand-drawn-book-cartoon-illustration-isolated-white-background_921039-24013.jpg?semt=ais_hybrid&w=740",
+    "desc": "Rediscover the magic of timeless fairy tales filled with dragons, fairies, and enchanted lands. Each story is crafted to transport readers into a realm of fantasy and wonder. These classic tales foster imagination and offer gentle lessons about courage and love. A treasured addition to any child's bookshelf."
+  },
+  {
+    "id": 10,
+    "name": "Detective Book",
+    "title": "by Oliver West",
+    "price": 59,
+    "category": "Mystery",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?semt=ais_hybrid&w=740",
+    "desc": "Put on your detective hat and solve thrilling mysteries alongside clever investigators. Each case offers cryptic clues, suspicious suspects, and brilliant reveals. The stories blend suspense and strategy, perfect for readers who love puzzles. A captivating ride through twists and turns."
+  },
+  {
+    "id": 11,
+    "name": "Math Fun",
+    "title": "by Prof. Linda Kim",
+    "price": 10,
+    "category": "Education",
+    "image": "https://img.freepik.com/free-vector/cartoon-colorful-book-characters-different-actions-set_74855-25054.jpg?semt=ais_hybrid&w=740",
+    "desc": "Make numbers exciting with games, puzzles, and brain teasers that make learning math fun. This book encourages logical thinking and problem-solving with a playful approach. Ideal for students who think math is boring — this will change their mind. A hands-on journey through numbers."
+  },
+  {
+    "id": 12,
+    "name": "Travel Book",
+    "title": "by Hannah Lee",
+    "price": 45,
+    "category": "Travel",
+    "image": "https://img.freepik.com/premium-vector/cute-happy-smiling-book-cartoon-character_92289-1253.jpg?semt=ais_hybrid&w=740",
+    "desc": "Explore breathtaking landscapes and vibrant cultures from around the world. This book serves as a passport to global adventures through vivid descriptions and stunning photography. Whether it's ancient temples or tropical islands, you'll be inspired to travel. A treat for wanderlust-filled readers."
+  },
+  {
+    "id": 13,
+    "name": "Invention Book",
+    "title": "by Colin Reeves",
+    "price": 60,
+    "category": "Technology",
+    "image": "https://img.freepik.com/premium-vector/cute-book-vector-illustration_903188-128.jpg?semt=ais_hybrid&w=740",
+    "desc": "Celebrate the brilliance behind the world’s most groundbreaking inventions. Learn how ideas evolved from simple sketches to world-changing technologies. This book fuels imagination while honoring the spirit of innovation. Perfect for young inventors and curious minds."
+  },
+  {
+    "id": 14,
+    "name": "Magic Spells",
+    "title": "by Morgana Everlight",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/premium-vector/pink-book-with-face-front-face-bottom_865091-13013.jpg",
+    "desc": "Unlock ancient secrets and unleash your magical potential in this mystical spellbook. With potions, incantations, and enchanted objects, it invites readers to dream big. The pages brim with fantasy and lore. A perfect gateway to imaginative play and magical thinking."
+  },
+  {
+    "id": 15,
+    "name": "Nature Book",
+    "title": "by Sylvia Hart",
+    "price": 39,
+    "category": "Science",
+    "image": "https://img.freepik.com/free-vector/book-doodle-hand-drawn-cartoon-art-illustration_56104-746.jpg?semt=ais_hybrid&w=740",
+    "desc": "Celebrate the wonders of the natural world, from towering trees to tiny insects. This beautifully illustrated book encourages appreciation for Earth’s biodiversity. It's both a scientific and poetic exploration of the environment. Inspires children to protect what they love."
+  },
+  {
+    "id": 16,
+    "name": "Space Explorers",
+    "title": "by Dr. Neil Hartman",
+    "price": 75,
+    "category": "Science",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg",
+    "desc": "Blast off into the cosmos with this thrilling guide to space exploration. Learn about planets, black holes, astronauts, and the technology that makes space travel possible. It’s packed with facts, illustrations, and mind-blowing discoveries. Perfect for aspiring scientists and space dreamers."
+  },
+  {
+    "id": 17,
+    "name": "Pirate Stories",
+    "title": "by Captain Briggs",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/cartoon-colorful-book-characters-different-actions-set_74855-25054.jpg",
+    "desc": "Hoist the sails and hunt for treasure in this swashbuckling collection of pirate tales. Each story brings alive the high seas with daring captains, buried gold, and thrilling battles. A perfect blend of humor, danger, and adventure. Young readers will feel like part of the crew."
+  },
+  {
+    "id": 18,
+    "name": "Emotions and Me",
+    "title": "by Claire Monroe",
+    "price": 28,
+    "category": "Education",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-book-cartoon-illustration_23-2150609783.jpg",
+    "desc": "Explore feelings in a safe and creative way with stories that help kids name and understand their emotions. This book supports emotional intelligence through relatable characters and calming techniques. Great for family reading and classroom discussion. A guide for happier hearts and minds."
+  },
+  {
+    "id": 19,
+    "name": "Robot World",
+    "title": "by Kent Walsh",
+    "price": 90,
+    "category": "Technology",
+    "image": "https://img.freepik.com/premium-vector/cute-book-vector-illustration_903188-128.jpg",
+    "desc": "Enter the fascinating future of robotics with this detailed look at how machines are changing our lives. From factory bots to friendly companions, discover how robots work and what they might become. Encourages STEM learning with fun facts and illustrations. A robotic journey into tomorrow."
+  },
+  {
+    "id": 20,
+    "name": "Poetry for Kids",
+    "title": "by June Rivers",
+    "price": 15,
+    "category": "Story",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-stack-books_23-2149331326.jpg",
+    "desc": "Delight in the magic of rhyme and rhythm with this charming poetry collection. Each poem is crafted to spark joy, imagination, and a love of language. Great for reading aloud or inspiring young writers. A celebration of words that sing and soar."
+  },
+  {
+    "id": 21,
+    "name": "Superhero Book",
+    "title": "by Leo Sparks",
+    "price": 66,
+    "category": "Adventure",
+    "image": "https://img.freepik.com/free-vector/book-floating-cartoon-vector-icon-illustration-education-object-icon-isolated-flat-vector_138676-13661.jpg",
+    "desc": "Follow bold heroes as they save the day using powers, courage, and clever thinking. This collection delivers action, responsibility, and thrilling battles between good and evil. A fun mix of classic comic style and empowering messages. Great for any young superhero fan."
+  },
+  {
+    "id": 22,
+    "name": "Ocean Life",
+    "title": "by Marina Dell",
+    "price": 34,
+    "category": "Science",
+    "image": "https://img.freepik.com/premium-vector/pink-book-with-face-front-face-bottom_865091-13013.jpg",
+    "desc": "Dive into the mysterious deep with this beautifully illustrated guide to marine life. From coral reefs to giant whales, kids will learn about diverse creatures and fragile ecosystems. Encourages respect for the ocean and marine conservation. Perfect for nature-loving explorers."
+  },
+  {
+    "id": 23,
+    "name": "Historical Heroes",
+    "title": "by Thomas Grant",
+    "price": 80,
+    "category": "History",
+    "image": "https://img.freepik.com/free-vector/smiling-green-book-character_1308-173535.jpg",
+    "desc": "Meet the remarkable figures who changed the course of history with bravery, ideas, and compassion. Each chapter highlights a different hero from around the world. The stories are both inspiring and educational. A timeless collection of real-world role models."
+  },
+  {
+    "id": 24,
+    "name": "Jungle Book",
+    "title": "by Priya Das",
+    "price": 38,
+    "category": "Adventure",
+    "image": "https://img.freepik.com/premium-vector/cute-happy-smiling-book-cartoon-character_92289-1253.jpg",
+    "desc": "Venture into the heart of the jungle where animals speak and children find their wild side. These tales mix fantasy and survival in lush, vivid settings. Packed with heart, courage, and humor. A modern twist on a classic theme."
+  },
+  {
+    "id": 25,
+    "name": "The Weather Book",
+    "title": "by Emily Breeze",
+    "price": 42,
+    "category": "Science",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg",
+    "desc": "From sunshine to storms, discover the science behind the skies. This interactive book explains clouds, rain, snow, and climate in fun, easy terms. Perfect for curious kids who ask, 'Why is the sky blue?' A breezy guide to the weather around us."
+  },
+  {
+    "id": 26,
+    "name": "Kindness Counts",
+    "title": "by Joy Martin",
+    "price": 0,
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/book-doodle-hand-drawn-cartoon-art-illustration_56104-746.jpg",
+    "desc": "Learn how small acts of kindness can make a big difference. This heartfelt book features real and imagined stories of compassion, sharing, and friendship. Ideal for teaching empathy and values at home or school. A gentle, uplifting read for all ages."
+  },
+  {
+    "id": 27,
+    "name": "Train Tales",
+    "title": "by Gordon Steel",
+    "price": 51,
+    "category": "Travel",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-book-cartoon-illustration_23-2150681870.jpg",
+    "desc": "All aboard for a journey filled with train adventures through cities, mountains, and magical lands. This book captures the joy of locomotives and travel stories. Includes both real trains and imaginative railways. Great for transportation lovers."
+  },
+  {
+    "id": 28,
+    "name": "Body Book",
+    "title": "by Dr. Jaya Mistry",
+    "price": 30,
+    "category": "Education",
+    "image": "https://img.freepik.com/free-vector/book-floating-cartoon-vector-icon-illustration-education-object-icon-isolated-flat-vector_138676-13661.jpg",
+    "desc": "Explore the amazing human body with colorful diagrams and fun facts. From bones to brains, this book makes biology exciting and simple. Encourages healthy habits and curiosity about how we function. A fantastic first anatomy guide for kids."
+  },
+  {
+    "id": 29,
+    "name": "Farm Life",
+    "title": "by Ben Wallace",
+    "price": 27,
+    "category": "Story",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-stack-books_23-2149331326.jpg",
+    "desc": "Experience the charm of the countryside through stories of farm animals, crops, and rural adventures. This book highlights the importance of nature and hard work. A delightful way to teach where food comes from. Simple stories full of warmth and lessons."
+  },
+  {
+    "id": 30,
+    "name": "Time Travelers",
+    "title": "by Ava Locke",
+    "price": 88,
+    "category": "Fantasy",
+    "image": "https://img.freepik.com/premium-vector/cute-book-vector-illustration_903188-128.jpg",
+    "desc": "Leap through the centuries in this exciting journey with young time travelers. They visit ancient civilizations, meet famous figures, and change history. Each adventure blends education and imagination. A page-turning ride through the past, present, and future."
+  }
+]
