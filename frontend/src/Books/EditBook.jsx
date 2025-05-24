@@ -16,7 +16,7 @@ function EditBook() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('https://bookstorebackend-s0nf.onrender.com/getbooks/' + id)
+    axios.get('https://bookstorebackend-s0nf.onrender.com/getbooks/'+ id)
       .then(result => {
         setName(result.data.name);
         setTitle(result.data.title);
@@ -33,7 +33,7 @@ function EditBook() {
 
   const Update = (e) => {
     e.preventDefault();
-    axios.put("http://localhost:4001/updatebook/" + id, { name, title, price, category, image ,desc })
+    axios.put("https://bookstorebackend-s0nf.onrender.com/updatebook/" + id, { name, title, price, category, image ,desc })
       .then(result => {
         toast.success("Book updated successfully!", { duration: 4000 });
         navigate('/');
