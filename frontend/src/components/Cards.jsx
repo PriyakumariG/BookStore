@@ -13,7 +13,7 @@ function Cards({ item }) {
       return;
     }
     if (window.confirm("Are you sure you want to delete this book?")) {
-      axios.delete('http://localhost:4001/deleteBook/' + id)
+      axios.delete('https://bookstorebackend-s0nf.onrender.com/deleteBook/' + id)
         .then(response => {
           toast.success(response.data.message || "Book deleted successfully", { duration: 30000 });
           setTimeout(() => window.location.reload(), 1000);
