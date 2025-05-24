@@ -17,8 +17,10 @@ const PORT = process.env.PORT || 4000;
 const URI = process.env.MongoDBURI;
 
 // connect to mongodb 
-app.use(cors());
- 
+app.use(cors({
+  origin: 'https://bookstorefrontend-m1e9.onrender.com', // <-- allow your deployed frontend
+  credentials: true,
+}));
 mongoose.connect(URI)
 .then(() => {
   console.log("Connected to MongoDB");
