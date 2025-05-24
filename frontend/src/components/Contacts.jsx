@@ -14,7 +14,7 @@ function Contact() {
   const navigate = useNavigate();
 
   const onSubmit = (data) => {
-    axios.post('http://localhost:4001/contact', data)  // <-- changed '/Contact' to '/contact'
+    axios.post('https://bookstorebackend-s0nf.onrender.com/contact', data)  // <-- changed '/Contact' to '/contact'
       .then(response => {
         toast.success("Message submitted successfully!");
         setTimeout(() => {
