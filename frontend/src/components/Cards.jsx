@@ -7,22 +7,25 @@ function Cards({ item }) {
   const [authuser] = useAuth();
   const navigate = useNavigate();
 
-  const handleDelete = (id) => {
-    if (!authuser) {
-      toast.error("Please log in first to delete books");
-      return;
-    }
-    if (window.confirm("Are you sure you want to delete this book?")) {
-      axios.delete('https://bookstorebackend-s0nf.onrender.com/deleteBook/' + id)
-        .then(response => {
-          toast.success(response.data.message || "Book deleted successfully", { duration: 30000 });
-          setTimeout(() => window.location.reload(), 1000);
-        })
-        .catch(err => {
-          toast.error("Failed to delete book", { duration: 4000 });
-        });
-    }
-  };
+const handleDelete = (id) => {
+  if (!authuser) {
+    toast.error("Please log in first to delete books");
+    return;
+  }
+
+  if (window.confirm("Are you sure you want to delete this book?")) {
+    axios.delete('https://bookstorebackend-s0nf.onrender.com/deleteBook/' + id)
+      .then(response => {
+        toast.success(response.data.message || "Book deleted successfully", { duration: 3000 });
+        // Redirect to home page
+        setTimeout(() => navigate("/"), 1000);
+      })
+      .catch(err => {
+        toast.error("Failed to delete book", { duration: 4000 });
+      });
+  }
+};
+
 
   const handleUpdateClick = (id) => {
     if (!authuser) {
