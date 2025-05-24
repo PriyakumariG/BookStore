@@ -16,7 +16,7 @@ function AddBook() {
 
   const Submit = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:4001/books", { name, title, price, category, image,desc})
+    axios.post("https://bookstorebackend-s0nf.onrender.com/books", { name, title, price, category, image,desc})
       .then(result => {
         toast.success("Book added successfully!");
         navigate('/');
