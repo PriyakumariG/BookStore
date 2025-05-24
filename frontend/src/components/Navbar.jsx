@@ -47,7 +47,7 @@ useEffect(()=>{
       <li><Link to='/AddBook'><a>Add Books</a></Link> </li>
       <li><Link to='/contact'> <a>Contact</a></Link></li>
       <li><Link to='/About'><a>About</a></Link> </li>
-      <li><Link to='/page'><a>New Page</a></Link> </li>
+     
 
         </>
     )
