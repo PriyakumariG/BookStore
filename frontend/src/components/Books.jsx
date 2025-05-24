@@ -7,7 +7,7 @@ function Books() {
   useEffect(()=>{
     const getBook=async()=>{
       try{
-        const resp = await axios.get("http://localhost:4001/book")
+        const resp = await axios.get("https://bookstorebackend-s0nf.onrender.com/book")
         setBook(resp.data)
         console.log(resp.data)
         
