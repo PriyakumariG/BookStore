@@ -9,7 +9,7 @@ function BookDetail() {
   const [book, setBook] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:4001/getbooks/${id}`)
+    axios.get(`https://bookstorebackend-s0nf.onrender.com/getbooks/${id}`)
       .then(res => setBook(res.data))
       .catch(err => console.error("Failed to fetch book details:", err));
   }, [id]);
