@@ -17,7 +17,15 @@ const PORT = process.env.PORT || 4000;
 const URI = process.env.MongoDBURI;
 
 // connect to mongodb 
-app.use(cors());
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://bookstorefrontend-m1e9.onrender.com"
+];
+
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true
+}));
  
 mongoose.connect(URI, {
   useNewUrlParser: true,
