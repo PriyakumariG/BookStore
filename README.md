@@ -8,7 +8,6 @@ A full-stack online bookstore application built with the MERN stack (MongoDB, Ex
 - 📖 Browse and view book listings with details
 - ➕ Add, edit, and delete books
 - ✉️ Contact form for user inquiries
-- 📊 Dashboard with charts (via Chart.js / Recharts)
 - 🎨 Responsive UI styled with Tailwind CSS and DaisyUI
 - 🍞 Toast notifications for user feedback
 
@@ -21,14 +20,12 @@ A full-stack online bookstore application built with the MERN stack (MongoDB, Ex
 - React Hook Form
 - Axios
 - React Hot Toast
-- Chart.js / Recharts
 
 **Backend:**
 - Node.js + Express.js
 - MongoDB with Mongoose (hosted on MongoDB Atlas)
 - bcryptjs for password hashing
 - dotenv for environment configuration
-- CORS
 
 ## 📁 Project Structure
 
@@ -106,10 +103,6 @@ The backend requires a `.env` file (not committed to version control for securit
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome. Feel free to open a pull request or issue.
-
-## 📄 License
-
-This project is licensed under the ISC License.
 
 ## 👩‍💻 Author
 
