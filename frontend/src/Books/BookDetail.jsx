@@ -3,13 +3,14 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { API_URL } from '../config';
 
 function BookDetail() {
   const { id } = useParams();
   const [book, setBook] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:4001/getbooks/${id}`)
+    axios.get(`${API_URL}/getbooks/${id}`)
       .then(res => setBook(res.data))
       .catch(err => console.error("Failed to fetch book details:", err));
   }, [id]);

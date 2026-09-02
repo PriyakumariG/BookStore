@@ -1,9 +1,10 @@
- import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import toast from 'react-hot-toast';  // import toast
+import toast from 'react-hot-toast';
+import { API_URL } from '../config';
 
 function EditBook() {
   const { id } = useParams();
@@ -16,7 +17,7 @@ function EditBook() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('http://localhost:4001/getbooks/' + id)
+    axios.get(`${API_URL}/getbooks/` + id)
       .then(result => {
         setName(result.data.name);
         setTitle(result.data.title);
@@ -33,7 +34,7 @@ function EditBook() {
 
   const Update = (e) => {
     e.preventDefault();
-    axios.put("http://localhost:4001/updatebook/" + id, { name, title, price, category, image ,desc })
+    axios.put(`${API_URL}/updatebook/` + id, { name, title, price, category, image ,desc })
       .then(result => {
         toast.success("Book updated successfully!", { duration: 4000 });
         navigate('/');
