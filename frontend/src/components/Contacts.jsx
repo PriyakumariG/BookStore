@@ -16,10 +16,10 @@ function Contact() {
   const onSubmit = (data) => {
     axios.post('http://localhost:4001/contact', data)  // <-- changed '/Contact' to '/contact'
       .then(response => {
-        toast.success("Message submitted successfully!");
+        toast.success("Message submitted successfully!", { duration: 2000 });
         setTimeout(() => {
           navigate('/');
-        }, 2000);
+        }, 3000);
       })
       .catch(error => {
         toast.error("Failed to submit message");
@@ -29,7 +29,15 @@ function Contact() {
 
   return (
     <div className="flex h-screen items-center justify-center">
-      <div className="modal-box border-[2px] shadow-md-5 dark:bg-slate-900 dark:text-white">
+      <div className="modal-box border-[2px] shadow-md-5 dark:bg-slate-900 dark:text-white relative">
+        <button
+          onClick={() => navigate('/')}
+          className="absolute right-3 top-3 text-2xl leading-none hover:text-yellow-500 duration-200"
+          aria-label="Close"
+          type="button"
+        >
+          &times;
+        </button>
         <form onSubmit={handleSubmit(onSubmit)}>
           <h3 className="font-bold text-lg">Contact</h3>
 
