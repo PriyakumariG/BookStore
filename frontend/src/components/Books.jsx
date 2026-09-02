@@ -2,12 +2,13 @@ import React, { useEffect, useState } from 'react'
 import Cards from './Cards'
 import { Link } from 'react-router-dom'
 import axios from "axios"
+import { API_URL } from '../config'
 function Books() {
   const [book,setBook]=useState([])
   useEffect(()=>{
     const getBook=async()=>{
       try{
-        const resp = await axios.get("http://localhost:4001/book")
+        const resp = await axios.get(`${API_URL}/book`)
         setBook(resp.data)
         console.log(resp.data)
         
@@ -27,7 +28,7 @@ function Books() {
            You're now logged in! You can update, delete, or add new books to your collection with just a few clicks. Manage your library with ease and keep your shelf up to date.
         </p>
         <p className='mt'>
-           Clicking on a book’s image will take you to a detailed page with more information about the book, including its title, description, and price.
+           Clicking on a book's image will take you to a detailed page with more information about the book, including its title, description, and price.
         </p>
         <Link to='/'> 
         <button className='mt-6 bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 duration-300'>Back</button>

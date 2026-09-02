@@ -2,6 +2,7 @@ import toast from 'react-hot-toast';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { useAuth } from '../context/AuthProvider'
+import { API_URL } from '../config'
 
 function Cards({ item }) {
   const [authuser] = useAuth();
@@ -13,7 +14,7 @@ function Cards({ item }) {
       return;
     }
     if (window.confirm("Are you sure you want to delete this book?")) {
-      axios.delete('http://localhost:4001/deleteBook/' + id)
+      axios.delete(`${API_URL}/deleteBook/` + id)
         .then(response => {
           toast.success(response.data.message || "Book deleted successfully", { duration: 30000 });
           setTimeout(() => window.location.reload(), 1000);

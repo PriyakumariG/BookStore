@@ -4,13 +4,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Cards from './Cards';
+import { API_URL } from '../config';
 
 function Freebook() {
   const [book,setBook]=useState([])
   useEffect(()=>{
     const getBook=async()=>{
       try{
-        const resp = await axios.get("http://localhost:4001/book")
+        const resp = await axios.get(`${API_URL}/book`)
         setBook(resp.data.filter((data)=>data.category==="Free")) //filter the data from array
         console.log(resp.data.filter((data)=>data.category==="Free"))
         
@@ -62,7 +63,7 @@ function Freebook() {
          <div>
          <h1 className=' font-semibold text-xl pb-2'>Free Offered Book</h1>
         <p>Start your reading journey at no cost - explore our collection of free books and discover knowledge, inspiration, and entertainment at no expense. ! </p>
-        <p>Clicking on a book’s image will take you to a detailed page with more information about the book, including its title, description, and price. </p>
+        <p>Clicking on a book's image will take you to a detailed page with more information about the book, including its title, description, and price. </p>
          </div>
        
       <div>
