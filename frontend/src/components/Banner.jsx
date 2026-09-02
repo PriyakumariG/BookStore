@@ -14,7 +14,7 @@ function Banner() {
                         </p>
                        
                     </div>
-                    <button className="btn mt-8 bg-yellow-500 hover:bg-yellow-500 hover:bg-yellow-600 duration-300"><Link to='/books'>Get Started</Link></button>
+                    <Link to='/books' className="btn mt-8 bg-yellow-500 hover:bg-yellow-500 hover:bg-yellow-600 duration-300">Get Started</Link>      
 
                 </div>
                 <div className='mt-12 md:mt-15 order-1 w-full md:w-1/2'> 

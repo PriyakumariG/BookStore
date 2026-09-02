@@ -35,12 +35,15 @@ export const signup=async(req,resp)=>{
 
 export const login=async(req,resp)=>{
     try {
-        const {email,password}=req.body;
-        const user=await User.findOne({email});
-        const isMatch=await bcryptjs.compare(password,user.password)
-        if(!user || !isMatch){
-            return resp.status(400).json({message:"Invalid email or password"})
-        }
+            const {email,password}=req.body;
+            const user=await User.findOne({email});
+            if(!user){
+                return resp.status(400).json({message:"Invalid email or password"})
+            }
+            const isMatch=await bcryptjs.compare(password,user.password)
+            if(!isMatch){
+                return resp.status(400).json({message:"Invalid email or password"})
+            }
         else{
             return resp.status(200).json({message:"Login successfull",
             user:{

@@ -10,7 +10,6 @@ import { Navigate } from 'react-router-dom'
 import About from './components/About'; // Or your actual path
 import AddBook from './Books/AddBook';  // Adjust the path if it's different
 import EditBook from './Books/EditBook'
-import Page from './components/Page'
 import BookDetail from './Books/BookDetail'
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/contact" element={<Contact/>} />   
           <Route path="/about" element={<About />} />
-          <Route path="/page" element={<Page />} />
           <Route path="/addbook" element={authuser ? <AddBook /> : <Navigate to="/signup" />} />
           <Route path="/edit/:id" element={<EditBook />} />
           <Route path="/book-detail/:id" element={<BookDetail/>} />   
