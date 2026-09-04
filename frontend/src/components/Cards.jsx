@@ -37,22 +37,22 @@ function Cards({ item }) {
     <> 
      
     <div className='mt-4 my-3 p-3'>
-      <div className="card w-92 bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
-       <figure>
-        <Link to={`/book-detail/${item._id}`}>
-          <img src={item.image} alt="Book" className="cursor-pointer w-full h-35 object-cover" />
+      <div className="card w-full max-w-xs mx-auto bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
+       <figure className="w-full h-48 overflow-hidden">
+        <Link to={`/book-detail/${item._id}`} className="w-full h-full block">
+          <img src={item.image} alt="Book" className="cursor-pointer w-full h-full object-cover" />
         </Link>
       </figure>
 
         <div className="card-body">
-          <h2 className="card-title">
+          <h2 className="card-title flex-wrap">
             {item.name}
             {item.price === 0 && <div className="badge badge-secondary bg-yellow-500 text-black">FREE</div>}
           </h2>
           <p>{item.title}</p>
-          <div className="card-actions justify-between">
+          <div className="card-actions flex-wrap justify-between items-center gap-2">
             <div className="badge badge-outline">${item.price}</div>
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2">
               
               <button
                 onClick={() => handleUpdateClick(item._id)}

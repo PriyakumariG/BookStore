@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useNavigate } from 'react-router-dom';
 import toast, { Toaster } from 'react-hot-toast';
+import { API_URL } from '../config';
 
 function AddBook() {
   const [name, setName] = useState('');
@@ -16,7 +17,7 @@ function AddBook() {
 
   const Submit = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:4001/books", { name, title, price, category, image,desc})
+    axios.post(`${API_URL}/books`, { name, title, price, category, image,desc})
       .then(result => {
         toast.success("Book added successfully!");
         navigate('/');

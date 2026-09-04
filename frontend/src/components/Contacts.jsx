@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import toast from 'react-hot-toast';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import { API_URL } from '../config';
 
 function Contact() {
   const {
@@ -14,7 +15,7 @@ function Contact() {
   const navigate = useNavigate();
 
   const onSubmit = (data) => {
-    axios.post('http://localhost:4001/contact', data)  // <-- changed '/Contact' to '/contact'
+    axios.post(`${API_URL}/contact`, data)
       .then(response => {
         toast.success("Message submitted successfully!", { duration: 2000 });
         setTimeout(() => {
