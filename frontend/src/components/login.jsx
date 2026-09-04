@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useForm } from "react-hook-form"
 import axios from 'axios'
 import toast from 'react-hot-toast'
 import { API_URL } from '../config'
+import { useAuth } from '../context/AuthProvider'
 
 function Login() {
   const [showPassword, setShowPassword] = useState(false);
+  const navigate = useNavigate();
+  const [, setAuthUser] = useAuth();
   const {
     register,
     handleSubmit,
@@ -23,12 +26,12 @@ function Login() {
       .then((resp)=>{
         console.log(resp.data)
         if(resp.data){
+          localStorage.setItem("user",JSON.stringify(resp.data));
+          setAuthUser(resp.data);
           toast.success('Login successfully');
           document.getElementById("my_modal_3").close();
           setTimeout(()=>{
-            
-            window.location.reload();
-            localStorage.setItem("user",JSON.stringify(resp.data));
+            navigate('/');
            },1000);
                 }
          

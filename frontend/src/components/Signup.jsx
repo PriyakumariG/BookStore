@@ -94,14 +94,14 @@ function Signup() {
       {errors.password && <span  className='text-sm text-red-500 '>This field is required</span>}
      </div>
 
-     <div className='flex justify-around mt-4'>
+     <div className='flex justify-around mt-4 items-center'>
       <button className='bg-yellow-500 text-white rounded-md px-3 py-1 hover:bg-yellow-600 duration-200' >SignUp</button>
-      <p className=' md:text-xl'>Have account? <a className='underline text-blue-500 cursor-pointer'
+      <p className='md:text-xl'>Have account? <a className='underline text-blue-500 cursor-pointer'
       onClick={()=> document.getElementById("my_modal_3").showModal()}>
-      Login</a>
-      <Login/></p>
+      Login</a></p>
      </div>
      </form>
+     <Login/>
   </div>
 </div>
       </div>
